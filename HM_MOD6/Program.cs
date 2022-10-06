@@ -158,7 +158,7 @@ namespace HomeConstruction
             {
                 Door door = new Door();
                 door.Build(house);
-                T.report.Add($"{Name} установил дверь на запасной выход с задней строны дома");
+                T.report.Add($"{Name} установил дверь на запасной выход с задней стoроны дома");
             }
             else if (house.window == null || house.window.Count < 4)
             {
